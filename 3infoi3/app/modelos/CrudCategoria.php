@@ -5,8 +5,9 @@
  * Date: 09/03/18
  * Time: 08:55
  */
-require "DBConnection.php";
+
 require "Categoria.php";
+require_once "DBConnection.php";
 class CrudCategoria
 {
     private $conexao;
