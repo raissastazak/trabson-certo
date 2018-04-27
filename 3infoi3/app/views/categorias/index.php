@@ -1,6 +1,9 @@
 
-<a href="?acao=inserir">Inserir</a>
-<h1>Categorias</h1>
+
+<div class="container">
+    <h1>Categoria <span class="badge badge-secondary">ALL</span></h1>
+</div>
+<a class="badge badge-success" href="?acao=inserir">Inserir</a>
 <table class="table">
     <thead class="thead-dark">
     <tr>
@@ -17,3 +20,4 @@
     <?php endforeach; ?>
     </tbody>
 </table>
+

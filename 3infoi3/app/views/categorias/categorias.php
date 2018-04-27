@@ -1,5 +1,6 @@
-
-<h1>Categoria</h1>
+<div class="container">
+<h1>Categoria <span class="badge badge-secondary"><?=$categoria->getNome()?></span></h1>
+    </div>
 <table class="table">
     <thead class="thead-dark">
     <tr>
@@ -15,7 +16,7 @@
         <td><?=$categoria->getDescricao()?></td>
     </tr>
     </tbody>
-
 </table>
-<a href="categorias.php?acao=update&id=<?= $categoria->getId()?>">Update</a>
-<a href="categorias.php?acao=delete&id=<?= $categoria->getId()?>">Delete</a>
+
+<a class="badge badge-secondary" href="categorias.php?acao=update&id=<?= $categoria->getId()?>">Update</a>
+<a class="badge badge-danger" href="categorias.php?acao=delete&id=<?= $categoria->getId()?>">Delete</a>
